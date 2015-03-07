@@ -2,7 +2,7 @@
 # Problem 1.
 data <- read.csv("./data/microdata.csv")
 names(data)[123]
-strsplit(names(data)[123], "wgtp")
+strsplit(names(data)[123], "wgtp") # Apply strsplit() to split all the names of the data frame on the characters "wgtp", to split names(data)[123] by "wgtp"; "wgtp15"->"" "15"      
 # [[1]]
 # [1] ""   "15"
 # Problem 2.
